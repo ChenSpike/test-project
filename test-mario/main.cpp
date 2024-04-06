@@ -3,13 +3,12 @@
 #include <QApplication>
 #include <QLocale>
 #include <QTranslator>
-#include <QGraphicsItem> // Here is the new lib. After Merge
+#include <QGraphicsItem>
 
 int main(int argc, char *argv[])
 {
     QApplication a(argc, argv);
 
-    // add some changes again
     QTranslator translator;
     const QStringList uiLanguages = QLocale::system().uiLanguages();
     for (const QString &locale : uiLanguages) {
