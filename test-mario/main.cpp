@@ -4,11 +4,13 @@
 #include <QLocale>
 #include <QTranslator>
 #include <QGraphicsItem>
+#include <QGraphicsRectItem>
 
 int main(int argc, char *argv[])
 {
     QApplication a(argc, argv);
 
+    // there are new 2 lib. added
     QTranslator translator;
     const QStringList uiLanguages = QLocale::system().uiLanguages();
     for (const QString &locale : uiLanguages) {
