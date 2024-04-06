@@ -3,7 +3,7 @@
 #include <QApplication>
 #include <QLocale>
 #include <QTranslator>
-#include <QGraphicsItem> // Here is the new lib.
+#include <QGraphicsItem>
 
 int main(int argc, char *argv[])
 {
